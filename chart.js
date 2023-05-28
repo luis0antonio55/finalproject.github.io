@@ -19,9 +19,9 @@ fetch('https://api.covidtracking.com/v1/us/daily.json')
       data: {
         labels: labels,
         datasets: [{
-          label: 'Muertes por COVID desde 2021',
+          label: 'Muertes por COVID desde 2020',
           data: values,
-          backgroundColor: 'rgb(68, 236, 213 )', // Color de fondo de las barras
+          backgroundColor: 'rgb(68, 236, 213 )',
           borderWidth: 1 
         }]
       },
